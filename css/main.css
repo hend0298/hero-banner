@@ -39,13 +39,14 @@ p {
 .content {
   max-width: 50em;
   position: absolute;
+  top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   overflow: hidden;
   transform: translateX(3%);
+  margin: .25em;
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
