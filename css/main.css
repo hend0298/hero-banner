@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,8 @@ h2 {
 p {
   font-style: italic;
   font-size: 2rem;
-  margin: 1rem;
+  margin: .75rem;
+  margin-top: .25em;
   margin-left: 0;
 }
 
@@ -38,12 +40,14 @@ p {
 
 .content {
   max-width: 50em;
+  width: 100%;
   position: absolute;
-  top: 0;
   bottom: 0;
+  left: 50%;
   overflow: hidden;
-  transform: translateX(3%);
+  transform: translateX(-50%);
   margin: .25em;
+  padding-left: 1em;
 }
 
 body {
