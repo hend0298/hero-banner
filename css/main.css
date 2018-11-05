@@ -22,6 +22,8 @@ h2 {
 p {
   font-style: italic;
   font-size: 2rem;
+  margin: 1rem;
+  margin-left: 0;
 }
 
 .banner {
