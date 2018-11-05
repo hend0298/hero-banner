@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -15,4 +16,29 @@ img {
 h2 {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
+  font-size: 4rem;
+}
+
+p {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+
+}
+
+.img-flex {
+
+}
+
+.content {
+  max-width: 50em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  transform: translateX(10%);
 }
