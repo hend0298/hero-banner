@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -24,7 +24,7 @@ p {
   font-style: italic;
   font-size: 2rem;
   margin: .75rem;
-  margin-top: .25em;
+  margin-top: .5em;
   margin-left: 0;
 }
 
@@ -42,6 +42,7 @@ p {
   max-width: 50em;
   width: 100%;
   position: absolute;
+  top: 0;
   bottom: 0;
   left: 50%;
   overflow: hidden;
