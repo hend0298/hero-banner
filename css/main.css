@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -18,14 +18,14 @@ h2 {
   color: #fff;
   display: inline;
   font-size: 4rem;
+  line-height: 1.4;
 }
 
 p {
   font-style: italic;
   font-size: 2rem;
-  margin: .75rem;
+  max-width: 50em;
   margin-top: .5em;
-  margin-left: 0;
 }
 
 .banner {
@@ -42,13 +42,12 @@ p {
   max-width: 50em;
   width: 100%;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  bottom: -.5em;
   left: 50%;
   overflow: hidden;
   transform: translateX(-50%);
-  margin: .25em;
-  padding-left: 1em;
+  padding-left: 1.3em;
+  padding-right: 2em;
 }
 
 body {
